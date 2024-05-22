@@ -1,5 +1,6 @@
+
 @extends('layout.base')
 
 @section('content')
-    <h1>hello world</h1>
+    <h1>Liste des produits</h1>
 @endsection
