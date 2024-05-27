@@ -7,3 +7,4 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name("product_list");
+Route::get('/categories', [App\Http\Controllers\CategoryController::class, 'index'])->name("categories_list");

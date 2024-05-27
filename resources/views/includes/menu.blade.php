@@ -11,7 +11,7 @@
             <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('home') }}">Catégories</a>
+            <a class="nav-link" href="{{ route('categories_list') }}">Catégories</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ route('product_list') }}">Produits</a>
@@ -21,9 +21,9 @@
               Dropdown link
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="{{ route('home') }}">Action</a></li>
+              <li><a class="dropdown-item" href="{{ route('home') }}">Autre action</a></li>
+              <li><a class="dropdown-item" href="{{ route('home') }}">Autre autre action</a></li>
             </ul>
           </li>
         </ul>
