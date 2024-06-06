@@ -14,7 +14,7 @@
             <a class="nav-link" href="{{ route('categories_list') }}">Catégories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('product_list') }}">Produits</a>
+            <a class="nav-link" href="{{ route('product_create') }}">Produits</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
